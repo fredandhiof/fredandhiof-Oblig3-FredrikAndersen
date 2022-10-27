@@ -17,7 +17,7 @@ def test_year_divisible_by_100_is_not_leap_year():
 
 
 def test_year_divisible_by_4_is_leap_year():
-    assert is_leap_year(3)
+    assert is_leap_year(4)
     assert is_leap_year(2016)
 
 
