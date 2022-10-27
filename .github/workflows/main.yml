@@ -21,4 +21,4 @@ jobs:
           python leap_year_calculator.py
       - name: Run pytest
         run: |
-          pytest leap_year_test.py
+          pytest leap_year_tests.py
