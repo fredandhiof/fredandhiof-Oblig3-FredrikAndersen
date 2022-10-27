@@ -20,4 +20,5 @@ jobs:
           pip install -r requirements.txt
           python leap_year_calculator.py
       - name: Run pytest
-        uses: pavelzw/pytest-action@v2
+        run: |
+          pytest -r w
